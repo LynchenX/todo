@@ -158,7 +158,7 @@ button:hover {
   box-sizing: border-box;
   font-size: 3rem;
   font-weight: 4rem;
-  border-radius: 15px 25px 30px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
   background-color: #fff;
   color: gray;
   box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
@@ -166,15 +166,25 @@ button:hover {
   cursor: pointer;
   transition: all 235ms 0.5s ease-in-out;
   transform: all 0.5s ease;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .checkbox:before{
   margin: 0;
   box-sizing: border-box;
-  border-radius: ;
-}
-.checkbox:after{
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
   
 }
 .checkbox:hover{
-  
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  text-shadow: 0 0 10px #41403e,
+               0 0 20px #41403e,
+               0 0 40px #41403e,
+               0 0 80px #41403e,
+               0 0 120px #41403e,
 }
